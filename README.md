@@ -13,7 +13,7 @@ This dockerfile creates containers ready for numeric Python 3 development.
 ```
 $ ./build.sh
 ```
-1. Run the create script. This will create a docker container that is pre-configured to mount `DATA_DIR` and publish a port on `127.0.0.1`.
+4. Run the create script. This will create a docker container that is pre-configured to mount `DATA_DIR` and publish a port on `127.0.0.1`.
 ```
 $ ./create.sh
 ```
