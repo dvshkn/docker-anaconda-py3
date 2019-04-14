@@ -1,0 +1,9 @@
+# the name of the resulting container
+CONTAINER_NAME=anaconda-py3
+
+# path to a host directory to expose inside the container at ~/data
+DATA_DIR=/home/my_user/my_data
+
+# service port to expose on the host, currently set to jupyter notebook defaults
+HOST_PORT=8888
+CONTAINER_PORT=8888
